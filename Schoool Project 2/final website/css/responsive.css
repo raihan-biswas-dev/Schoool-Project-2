@@ -1,0 +1,82 @@
+/* responsive  */
+@media screen and (max-width: 910px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mainmenu {
+    display: none;
+  }
+  .mobilemenu__open {
+    display: inline-block;
+  }
+  .hero__content h3 {
+    font-size: 2rem;
+  }
+  .hero__content h2 {
+    font-size: 3rem;
+  }
+  .hero__content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero__content h3 {
+    font-size: 1.5rem;
+  }
+  .hero__content h2 {
+    font-size: 2rem;
+  }
+  .hero__content p {
+    font-size: 1rem;
+  }
+  .about__us {
+    flex-direction: column;
+  }
+  .services {
+    flex-wrap: wrap;
+    gap: 6rem;
+  }
+  .portfolios {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+  }
+  .teams {
+    flex-wrap: wrap;
+  }
+  .team__image {
+    height: 37.9rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainmenu {
+    display: none;
+  }
+  .testemonials {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 520px) {
+  .hero__content h3 {
+    font-size: 1.2rem;
+  }
+  .hero__content h2 {
+    font-size: 1.8rem;
+  }
+  .hero__content p {
+    font-size: 1rem;
+  }
+  .hero__content p {
+    margin: 0.5rem 0;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .button__area {
+    margin-top: 1rem;
+  }
+}
